@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--custom CSS -->
+    <link href="./css/styles.css" rel="stylesheet" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="mobile-header">
+      <div class="mobile-header__logo-layout">
+        <img
+          src="./images/logo.svg"
+          alt="Sunnyside logo"
+          class="mobile-header__logo"
+        />
+        <button class="mobile-header__menu-btn" aria-label="Toggle menu">
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="Hamburger icon"
+            class="mobile-header__hamburger-icon"
+          />
+        </button>
+      </div>
+      <div class="mobile-header__hero-text-layout">
+        <h1 class="mobile-header__hero-text">We are creatives</h1>
+        <img
+          src="./images/icon-arrow-down.svg"
+          alt="Arrow icon"
+          class="mobile-header__arrow-icon"
+        />
+      </div>
+      <div class="mobile-header__overlay mobile-header__overlay--hidden">
+        <nav aria-label="Mobile Navigation" class="mobile-header__nav">
+          <ul class="mobile-header__nav-list">
+            <li><a href="#" class="mobile-header__nav-link">About</a></li>
+            <li><a href="#" class="mobile-header__nav-link">Services</a></li>
+            <li><a href="#" class="mobile-header__nav-link">Projects</a></li>
+            <li><a href="#" class="mobile-header__nav-link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-header__pointy-box"></div>
+      </div>
+    </header>
+    <header class="desktop-header">
+      <nav aria-label="Main Navigation" class="desktop-header__nav">
+        <img src="./images/logo.svg" class="desktop-header__logo" />
+        <ul class="desktop-header__nav-list">
+          <li><a href="#" class="desktop-header__nav-link">About</a></li>
+          <li><a href="#" class="desktop-header__nav-link">Services</a></li>
+          <li><a href="#" class="desktop-header__nav-link">Projects</a></li>
+          <li>
+            <a
+              href="#"
+              class="desktop-header__nav-link desktop-header__nav-link-active"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="desktop-header__hero-text-layout">
+        <h1 class="desktop-header__hero-text">We are creatives</h1>
+        <img
+          src="./images/icon-arrow-down.svg"
+          alt="arrow icon"
+          class="desktop-header__hero-img"
+        />
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-grid">
+        <div class="features-section">
+          <img
+            class="cta-image cta-image--transform-mobile"
+            src="./images/mobile/image-transform.jpg"
+          />
+          <img
+            class="cta-image cta-image--transform-desktop"
+            src="./images/desktop/image-transform.jpg"
+          />
+          <div class="cta cta--transform">
+            <h1 class="cta__heading fraunces-font">Transform your brand</h1>
+            <p class="cta__text">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <div class="cta__button-wrapper cta__button-wrapper--transform">
+              <button class="cta__button fraunces-font">Learn more</button>
+              <div
+                class="cta__button-underline cta__button-underline--transform"
+              ></div>
+            </div>
+          </div>
+          <img
+            class="cta-image cta-image--stand-out-mobile"
+            src="./images/mobile/image-stand-out.jpg"
+          />
+          <img
+            class="cta-image cta-image--stand-out-desktop"
+            src="./images/desktop/image-stand-out.jpg"
+          />
+          <div class="cta cta--stand-out">
+            <h1 class="cta__heading fraunces-font">
+              Stand out to the right audience
+            </h1>
+            <p class="cta__text">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <div class="cta__button-wrapper cta__button-wrapper--stand-out">
+              <button class="cta__button fraunces-font">Learn more</button>
+              <div
+                class="cta__button-underline cta__button-underline--stand-out"
+              ></div>
+            </div>
+          </div>
+          <div class="service service--graphic-design">
+            <h1 class="service__title fraunces-font">Graphic design</h1>
+            <p class="service__text">
+              Great design makes you memorable. We deliver <br />
+              artwork that underscores your brand message <br />
+              and captures potential clients’ attention.
+            </p>
+          </div>
+          <div class="service service--photography">
+            <h1 class="service__title fraunces-font">Photography</h1>
+            <p class="service__text">
+              Increase your credibility by getting the most <br />
+              stunning, high-quality photos that improve your <br />
+              business image.
+            </p>
+          </div>
+        </div>
+        <div class="testimonials-section">
+          <h2 class="testimonials-section__header fraunces-font">
+            Client testimonials
+          </h2>
+          <div class="testimonials-grid">
+            <div class="testimonial">
+              <img
+                class="testimonial__img"
+                src="./images/image-emily.jpg"
+                alt="Testimonial author"
+              />
+              <p class="testimonial__text">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+              <div class="testimonial__author">
+                <h3 class="testimonial__author-name fraunces-font">Emily R.</h3>
+                <h4 class="testimonial__author-role">Marketing Director</h4>
+              </div>
+            </div>
+            <div class="testimonial">
+              <img
+                class="testimonial__img"
+                src="./images/image-thomas.jpg"
+                alt="Testimonial author"
+              />
+              <p class="testimonial__text">
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+              <div class="testimonial__author">
+                <h3 class="testimonial__author-name fraunces-font">
+                  Thomas S.
+                </h3>
+                <h4 class="testimonial__author-role">
+                  Chief Operating Officer
+                </h4>
+              </div>
+            </div>
+            <div class="testimonial">
+              <img
+                class="testimonial__img"
+                src="./images/image-jennie.jpg"
+                alt="Testimonial author"
+              />
+              <p class="testimonial__text">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+              <div class="testimonial__author">
+                <h3 class="testimonial__author-name fraunces-font">
+                  Jennie F.
+                </h3>
+                <h4 class="testimonial__author-role">Business Owner</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery gallery--mobile">
+          <img
+            src="./images/mobile/image-gallery-milkbottles.jpg"
+            alt="Milk bottles"
+            class="gallery__item"
+          />
+          <img
+            src="./images/mobile/image-gallery-orange.jpg"
+            alt="Oranges"
+            class="gallery__item"
+          />
+          <img
+            src="./images/mobile/image-gallery-cone.jpg"
+            alt="Cone"
+            class="gallery__item"
+          />
+          <img
+            src="./images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="Sugar cubes"
+            class="gallery__item"
+          />
+        </div>
+        <div class="gallery gallery--desktop">
+          <img
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt="Milk bottles"
+            class="gallery__item"
+          />
+          <img
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt="Oranges"
+            class="gallery__item"
+          />
+          <img
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt="Cone"
+            class="gallery__item"
+          />
+          <img
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt="Sugar cubes"
+            class="gallery__item"
+          />
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <img src="./images/logo.svg" alt="Sunnyside logo" class="footer__logo" />
+      <nav aria-label="Footer Navigation" class="footer__nav">
+        <ul class="footer__nav-list">
+          <li><a href="#" class="footer__nav-link">About</a></li>
+          <li><a href="#" class="footer__nav-link">Services</a></li>
+          <li><a href="#" class="footer__nav-link">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social-icons">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer__social-link"
+        >
+          <img
+            src="./images/icon-facebook.svg"
+            alt="Visit our Facebook page"
+            class="footer__social-icon footer__social-icon--facebook"
+          />
+        </a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer__social-link"
+        >
+          <img
+            src="./images/icon-instagram.svg"
+            alt="Visit our Instagram page"
+            class="footer__social-icon footer__social-icon--instagram"
+          />
+        </a>
+        <a
+          href="https://x.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer__social-link"
+        >
+          <img
+            src="./images/icon-twitter.svg"
+            alt="Visit our Twitter page"
+            class="footer__social-icon footer__social-icon--twitter"
+          />
+        </a>
+        <a
+          href="https://pinterest.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footer__social-link"
+        >
+          <img
+            src="./images/icon-pinterest.svg"
+            alt="Visit our Pinterest page"
+            class="footer__social-icon footer__social-icon--pinterest"
+          />
+        </a>
+      </div>
+    </footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Tonye-Onuoha">Tonye Hugo Onuoha</a>.
+    </div>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
