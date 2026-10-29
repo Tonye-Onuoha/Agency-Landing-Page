@@ -41,9 +41,9 @@ Add a screenshot of your completed project to the repository and update the path
 
 ## 🔗 Links
 
-- **Live Site:** [View Live Demo](YOUR_LIVE_SITE_URL)
-- **GitHub Repository:** [View Source Code](YOUR_GITHUB_REPOSITORY_URL)
-- **Frontend Mentor Challenge:** [View Challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+- **Live Site:** [View Live Demo]()
+- **GitHub Repository:** [View Source Code](https://github.com/Tonye-Onuoha/Agency-Landing-Page.git)
+- **Frontend Mentor Challenge:** [View Challenge](https://www.frontendmentor.io/challenges/agency-landing-page-7yVs3B6ef)
 
 > Replace the placeholder URLs with your actual deployment and repository links.
 
@@ -90,8 +90,8 @@ Areas I would like to continue improving include:
 
 **Tonye Hugo Onuoha**
 
-- GitHub: [@YOUR_GITHUB_USERNAME](YOUR_GITHUB_PROFILE_URL)
-- Frontend Mentor: [@YOUR_FRONTEND_MENTOR_USERNAME](YOUR_FRONTEND_MENTOR_PROFILE_URL)
+- GitHub: [GITHUB_USERNAME](https://github.com/Tonye-Onuoha)
+- Frontend Mentor: [FRONTEND_MENTOR_USERNAME](https://www.frontendmentor.io/profile/Tonye-Onuoha)
 
 ## 🙏 Acknowledgments
 
