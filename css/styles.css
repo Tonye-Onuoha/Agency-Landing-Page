@@ -558,15 +558,13 @@ p {
   }
 
   .desktop-header {
-    display: block;
+    height: 100vh;
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
     background-image: url("../images/desktop/image-header.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 2.4rem;
   }
 
   .desktop-header__nav {
